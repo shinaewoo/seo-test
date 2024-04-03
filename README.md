@@ -29,6 +29,8 @@
 
 ### 개선점
 
-- 스코어 개선을 위해 필요한 작업 1
-- 스코어 개선을 위해 필요한 내용 2
-- 스코어 개선을 위해 필요한 내용 3
+- Add a H1 heading to this page.
+- Use good headings on the page.
+- This page has only very few internal links. If it's a welcome page, consider removing it.
+- Use 301 redirects to drive traffic to URLS with the same domain and sub domain (www and non-www subdomain).
+- Enable the compressed HTML content transfer on your server using gzip.
