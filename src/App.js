@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SEO from "./components/seo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SEO
+        type="website"
+        title="helmet test"
+        description="react-helmet-async test"
+        url="https://www.npmjs.com/package/react-helmet-async"
+        image="https://velog.velcdn.com/images/real-bird/post/806a2ae4-121d-427d-9cfc-be8fa6a618fa/image.jpg"
+      />
     </div>
   );
 }
